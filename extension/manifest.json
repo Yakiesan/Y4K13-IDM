@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Y3K14 Download Helper",
+  "version": "1.0",
+  "permissions": ["nativeMessaging", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*", "*://*.facebook.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

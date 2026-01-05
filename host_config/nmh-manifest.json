@@ -1,0 +1,9 @@
+{
+  "name": "com.y3k14.download",
+  "description": "Y3K14 Native Messaging Host",
+  "path": "Y3K14_Engine.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://YOUR_EXTENSION_ID_HERE/"
+  ]
+}
